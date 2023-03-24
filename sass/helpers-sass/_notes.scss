@@ -9,9 +9,17 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            @media #{$maxMobile}{
+                flex-wrap: wrap;
+            }
             ul{
                 width: (100% / 2);
                 list-style: none;
+                @media #{$maxMobile}{
+                    width: 100%;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid $main-color;
+                }
                 li{
                     margin-bottom: 10px;
                     h3{
@@ -27,6 +35,11 @@
             }
             .box-note{
                 width: (100% / 2);
+                @media #{$maxMobile}{
+                    width: 100%;
+                    border-bottom: 1px solid $main-color;
+                    padding-bottom: 10px;
+                }
                 p{
                     margin-bottom: 10px;
                     .n{
@@ -38,6 +51,12 @@
         }
         .foot-note{
             text-align: left;
+            font-size: 14px;
+            color: $fifth-color;
+            margin-top: 10px;
+            @media #{$maxMobile}{
+                font-size: 10px;
+            }
         }
     }
 }

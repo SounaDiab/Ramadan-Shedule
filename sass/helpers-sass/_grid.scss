@@ -1,46 +1,17 @@
 @import "./variables";
 
-// .header-landing{
-//     @media #{$minSmall} and #{$maxSmall} {
-//             height: 100px;
-//             .heading{
-//                 .logo{
-//                     left: 70px;
-//                 }
-//                 .img{
-//                     right: 70px;
-//                 }
-//             }
-//         }
-//         @media #{$maxMobile} {
-//             .heading{
-//                 .logo{
-//                     width: 80px;
-//                     left: 0;
-//                 }
-//                 h1{
-//                     font-size: 16px;
-//                 }
-//                 p{
-//                     font-size: 14px;
-//                 }
-//                 .img{
-//                     right: -30px;
-//                     width: 120px;
-//                 }
-//             }
-//             .landing{
-//                 .main-landing{
-//                     height: 500px;
-//                     top: -40%;
-//                     border-radius: 0;
-//                     &::after{
-//                         height: 500px;
-//                         border-radius: 0;
-//                     }
-//                 }
-//             }
-//             // table
+    // @media #{$minSmall} and #{$maxSmall} {
+    //         height: 100px;
+    //         .heading{
+    //             .logo{
+    //                 left: 70px;
+    //             }
+    //             .img{
+    //                 right: 70px;
+    //             }
+    //         }
+    //     }
+        @media #{$maxMobile} {
 
-//         }
-// }
+        }
+

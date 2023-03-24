@@ -34,7 +34,7 @@
             display: flex;
             justify-content: center;
             @media #{$maxMobile}{
-                font-size: 12px;
+                font-size: 9px;
             }
             &:not(:last-child){
                 border-left: 1px solid black;

@@ -37,7 +37,7 @@
             width: 120px;
             position: relative;
             top: 200px;
-            left: 140px;
+            left: 200px;
             @media #{$maxMobile}{
                 width: 80px;
                 left: 0;
@@ -74,7 +74,7 @@
         .img{
             position: absolute;
             top: 50%;
-            right: 10%;
+            right: 15%;
             width: 120px;
             @media #{$maxMobile}{
                 right: -10%;

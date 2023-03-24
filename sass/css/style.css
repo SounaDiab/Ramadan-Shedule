@@ -44,7 +44,7 @@
   width: 120px;
   position: relative;
   top: 200px;
-  left: 140px; }
+  left: 200px; }
 @media (max-width: 767px) {
   .header .heading .logo {
     width: 80px;
@@ -78,7 +78,7 @@
 .header .heading .img {
   position: absolute;
   top: 50%;
-  right: 10%;
+  right: 15%;
   width: 120px; }
 @media (max-width: 767px) {
   .header .heading .img {
@@ -116,7 +116,7 @@
   justify-content: center; }
 @media (max-width: 767px) {
   .table .box-body .body-1 {
-    font-size: 12px; } }
+    font-size: 9px; } }
 .table .box-body .body-1:not(:last-child) {
   border-left: 1px solid black; }
 .table .box-body .body-1:first-child {

@@ -1,0 +1,21 @@
+@import "./variables";
+.mounasabat{
+    direction: rtl;
+    margin-bottom: 40px;
+    .box{
+        border: 2px inset $second-color;
+        padding: 20px;
+        font-size: 30px;
+        &:not(:last-child){
+            border-bottom: none;
+        }
+        p{
+            span:not(span.s){
+                color: $main-color;
+            }
+            .s{
+                font-size: 20px;
+            }
+        }
+    }
+}

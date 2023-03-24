@@ -1,0 +1,29 @@
+mixin head-table
+    .head-1 اليوم
+    .head-1 التاريخ الميلادي
+    .head-1 الإمساك
+    .head-1 صلاة الصبح
+    .head-1 شروق الشمس
+    .head-1 صلاة الظهر
+    .head-1 صلاة المغرب
+    .head-1 منتصف الليل
+
+mixin body-table(...items)
+    each item in items
+        div(class="body-1")= item
+
+//- mixin span-title(...spans)
+//-     each span in spans
+//-         span= span
+
+//- mixin mounasabat-ramadan(...items)
+//-     each item in items
+//-         p
+//-             = item
+
+mixin notes(title,...lis)
+    ul
+        li
+            h3= title
+        each li in lis
+            li= li

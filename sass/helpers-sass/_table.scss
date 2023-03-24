@@ -1,0 +1,52 @@
+@import "./variables";
+.table{
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .box-head{
+        display: flex;
+        direction: rtl;
+        border: 1px solid black;
+        border-bottom: none;
+        text-align: center;
+        font: {
+            weight: bold;
+            size: 14px;
+        }
+
+        .head-1{
+            width: (100% / 8);
+            &:not(:last-child){
+                border-left: 1px solid black;
+            }
+        }
+    }
+    .box-body{
+        display: flex;
+        direction: rtl;
+        border: 1px solid black;
+        &:not(:last-child){
+            border-bottom: none;
+        }
+        text-align: center;
+        .body-1{
+            width:(100% / 8);
+            font-size: 14px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            &:not(:last-child){
+                border-left: 1px solid black;
+            }
+            &:first-child{
+                background-color: $fourth-color;
+                justify-content: start;
+                font-size: 20px;
+            }
+            &:nth-child(3),
+            &:nth-child(7){
+                background-color: $third-color;
+            }
+        }
+    }
+}

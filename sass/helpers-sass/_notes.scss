@@ -1,0 +1,43 @@
+@import "./variables";
+.ramadan-note{
+    direction: rtl;
+    margin-bottom: 20px;
+    .notes{
+        border: 2px outset $second-color;
+        padding: 20px;
+        .note{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            ul{
+                width: (100% / 2);
+                list-style: none;
+                li{
+                    margin-bottom: 10px;
+                    h3{
+                        font-size: 40px;
+                        color: $fifth-color;
+                    }
+                    &:not(:first-child)::before{
+                        content: "-";
+                        margin-left: 10px;
+                        vertical-align: text-bottom;
+                    }
+                }
+            }
+            .box-note{
+                width: (100% / 2);
+                p{
+                    margin-bottom: 10px;
+                    .n{
+                        font-size: 40px;
+                        color: $third-color;
+                    }
+                }
+            }
+        }
+        .foot-note{
+            text-align: left;
+        }
+    }
+}

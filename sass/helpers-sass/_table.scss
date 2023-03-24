@@ -17,9 +17,6 @@
 
         .head-1{
             width: (100% / 8);
-            &:not(:last-child){
-                border-left: 1px solid black;
-            }
         }
     }
     .box-body{
@@ -47,7 +44,7 @@
                 justify-content: start;
                 font-size: 20px;
                 @media #{$maxMobile} {
-                    font-size: 10px;
+                    font-size: 9px;
                 }
             }
             &:nth-child(3),
